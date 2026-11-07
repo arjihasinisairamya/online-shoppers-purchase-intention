@@ -21,7 +21,7 @@ The dataset contains numerical and categorical features describing visitor behav
 
 ## GitHub Repository Link
 
-**GitHub Repository:** 
+**GitHub Repository:** https://github.com/arjihasinisairamya/online-shoppers-purchase-intention/tree/main
 
 The repository contains:
 - `app.py` – Streamlit application.
@@ -31,7 +31,7 @@ The repository contains:
 - `model-training.ipynb`  Notebook containing the model training and evaluation
 - `README.md` – Project documentation.
 
-## d. Models Used
+## Models Used
 
 The dataset was split into training and testing sets using an 80:20 stratified split, with `random_state=42`.
 
@@ -89,4 +89,4 @@ The application loads the saved models from the `models/` directory. It does not
 
 The application is deployed using Streamlit Community Cloud.
 
-**Live Streamlit Application:**
+**Live Streamlit Application:** https://arjihasinisairamya-online-shoppers-purchase-intentio-app-ycqplb.streamlit.app/
