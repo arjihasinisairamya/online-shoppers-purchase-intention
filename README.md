@@ -28,7 +28,7 @@ The repository contains:
 - `requirements.txt` – Python dependencies required to run the application.
 - `test_data.csv` – Test dataset used by the application.
 - `models/` – Saved machine learning models.
-- `model-training.ipynb`  Notebook containing the model training and evaluation
+- `notebook - Notebook folder containing notebook of the model training and evaluation and training data set.
 - `README.md` – Project documentation.
 
 ## Models Used
