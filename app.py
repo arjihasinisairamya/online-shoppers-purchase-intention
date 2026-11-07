@@ -1,6 +1,5 @@
 
 # Import required libraries
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -22,12 +21,7 @@ from sklearn.metrics import (
 
 # Page configuration
 
-st.set_page_config(
-    page_title="Online Shopper Purchase Intention",
-    page_icon="🛍️",
-    layout="wide"
-)
-
+st.set_page_config(page_title="Online Shopper Purchase Intention",page_icon="🛍️",layout="wide")
 
 # Custom styling
 
@@ -111,7 +105,7 @@ except Exception as e:
 
 st.divider()
 
-st.subheader("📁 Upload Shopper Data")
+st.subheader("📁 Upload Shoppers Data")
 
 uploaded_file = st.file_uploader(
     "Upload your CSV file",
@@ -137,9 +131,6 @@ if uploaded_file is None:
                 use_container_width=False
             )
 
-    st.caption("Upload a CSV file above to get started.")
-
-
 # Continue only after uploading a file
 
 if uploaded_file is not None:
@@ -160,7 +151,6 @@ if uploaded_file is not None:
                 font-size: 16px;
             ">
                 ✓ Dataset uploaded successfully!
-                {len(data):,} shopper records are ready.
             </div>
             """,
             unsafe_allow_html=True
@@ -206,7 +196,6 @@ if uploaded_file is not None:
         }
 
         if not revenue_values.isin(revenue_mapping.keys()).all():
-
             st.error(
                 "Revenue must contain only True/False, Yes/No or 1/0 values."
             )
