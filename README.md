@@ -67,7 +67,7 @@ The models were evaluated using Accuracy, AUC, Precision, Recall, F1 Score, and 
 
 **Support Vector Machine &#40;SVM&#41;** is selected as the preferred model for this project\. Among the five classifiers, SVM achieved the highest accuracy of **0\.8832** and precision of **0\.6691**\. It also achieved an AUC of **0\.8861** and an F1 Score of **0\.5636**\.
 
-Although Logistic Regression performed better in terms of AUC, Recall, F1 Score, and MCC, the AUC and F1 Score values of SVM are also reasonably close to those of Logistic Regression\. SVM has a lower recall of 0\.4869, meaning that it misses some actual purchasing sessions\. However, considering its performance across the different evaluation metrics, SVM was selected as the preferred model for this project\. Logistic Regression also remains a strong alternative\.
+Although Logistic Regression performed better in terms of AUC, Recall, F1 Score, and MCC, the AUC and F1 Score values of SVM are also reasonably close to those of Logistic Regression\. SVM has a lower recall of 0\.4869, meaning that it misses some actual purchasing sessions\. However, considering its performance across the different evaluation metrics, SVM was selected as the preferred model for this project\. **Logistic Regression** also remains a strong alternative\.
 
 ## Application
 
